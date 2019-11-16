@@ -9,9 +9,8 @@ readme = "README.md"
 keywords = ["xen"]
 description = "Rust bindings for xenforeignmemory library"
 license = "GPL-3.0-only"
-licence-file = "LICENSE"
 
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.49.2"
+bindgen = "0.51.1"
