@@ -3,12 +3,15 @@ name = "xenforeignmemory-sys"
 version = "0.1.0"
 authors = ["Mathieu Tarral <mathieu.tarral@protonmail.com>"]
 edition = "2018"
-links = "xenforeignmemory"
-repository = "https://github.com/Wenzel/xenforeignmemory-sys"
+description = "Rust FFI bindings for libxenforeignmemory"
 readme = "README.md"
-keywords = ["xen"]
-description = "Rust bindings for xenforeignmemory library"
+homepage = "https://github.com/Wenzel/xenforeignmemory-sys"
+repository = "https://github.com/Wenzel/xenforeignmemory-sys"
 license = "GPL-3.0-only"
+keywords = ["xen", "xenforeignmemory"]
+categories = ["external-ffi-bindings"]
+links = "xenforeignmemory"
+build = "build.rs"
 
 [dependencies]
 
